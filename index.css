@@ -15,6 +15,20 @@ body {
     border-bottom-right-radius: 20px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
     transition: transform 0.3s ease;
+    animation-duration: 3s;
+    animation-name: slidein;   
+}
+
+@keyframes slidein {
+    from {
+      translate: 150vw 0;
+      scale: 200% 1;
+    }
+  
+    to {
+      translate: 0 0;
+      scale: 100% 1;
+    }
 }
 
 .container:hover {
